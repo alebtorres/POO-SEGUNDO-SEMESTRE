@@ -11,7 +11,7 @@ public class vehiculo {
 
     public void verificarVelocidad() {
         if (velocidad > 50) {
-            System.out.println("Multa aplicada al " + marca + " de placa: " + placa + " ,por exceso de velocidad");
+            System.out.println("Multa aplicada al " + marca + " de placa: " + placa + " ,por exceso de velocidad.");
         } else {
             System.out.println("El vehiculo " + marca + " recorre a una velocidad permitida.");
         }
