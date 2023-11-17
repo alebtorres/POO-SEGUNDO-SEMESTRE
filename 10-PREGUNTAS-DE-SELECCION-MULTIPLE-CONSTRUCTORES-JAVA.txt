@@ -1,0 +1,96 @@
+	                    GRUPO 4
+
+INTEGRANTES: JOEL CHIMBO - ALEXANDER ORDOÑEZ
+
+10 preguntas tipo elección multiple sobre los constructores de Java:
+
+1. ¿Qué es un constructor en Java?
+
+A) Un método normal 
+B) Un bloque de código utilizado para inicializar objetos
+C) El método main
+D) Una superclase
+
+RESPUESTA: B
+
+2. ¿Cuál es el propósito de un constructor?
+
+A) Crear objetos 
+B) Destruir objetos
+C) Imprimir objetos
+D) Para clonar objetos
+
+RESPUESTA: A
+
+3. ¿Cuál es la forma correcta de nomenclatura para los constructores?
+
+A) ConstructorName()
+B) construct() 
+C) new()
+D) ClassName()
+
+RESPUESTA: C
+
+4. ¿Los constructores tienen un tipo de retorno?
+
+A) int
+B) double
+C) void
+D) Sin tipo de retorno
+
+RESPUESTA: D
+
+5. ¿Se pueden sobrecargar los constructores?
+
+A) No
+B) Sí
+C) A veces 
+D) Sólo para subclases
+
+RESPUESTA: B
+
+6. ¿Qué es el constructor por defecto?
+
+A) Un constructor sin parámetros
+B) Un constructor con multiples parametros
+C) Un constructor definido por el programador
+D) Un constructor proporcionado por Java si no se define un constructor
+
+RESPUESTA: A
+
+7. ¿Qué palabras clave se utilizan para inicializar campos en un constructor? 
+
+A) this.field
+B) super.field
+C) class.field
+D) static.field  
+
+RESPUESTA: A
+
+8. ¿Dónde deben definirse los constructores?
+
+A) Fuera de la clase
+B) Como una clase separada
+C) Dentro de la clase 
+D) En una subclase
+
+RESPUESTA: C
+
+9. ¿Cuántos constructores puede tener una clase?
+
+A) 1
+B) 5
+C) Cualquier número
+D) Solo el constructor por defecto
+
+RESPUESTA: C
+
+10. ¿Se pueden heredar los constructores?
+
+A) Sí
+B) No 
+C) Sólo constructores públicos
+D) Solo constructores protegidos
+
+RESPUESTA: B
+
