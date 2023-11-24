@@ -26,7 +26,7 @@ public class sucursales {
                 System.out.println("Has elegido la sucursal 3");
                 break;
             default:
-                System.out.println("Opción no valida");
+                System.out.println("Opcion no valida");
                 break;
         }
 
@@ -46,7 +46,7 @@ public class sucursales {
                 System.out.println("Has elegido el producto C de la sucursal " + sucursal);
                 break;
             default:
-                System.out.println("Opción no valida");
+                System.out.println("Opcion no valida");
                 break;
         }
 
