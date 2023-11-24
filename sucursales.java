@@ -5,8 +5,8 @@ public class sucursales {
     String producto;
 
     public static void main(String[] args) {
-        sucursales mainObject = new sucursales();
-        mainObject.elegir();
+        sucursales objeto_principal = new sucursales();
+        objeto_principal.elegir();
     }
 
     public void elegir() {
