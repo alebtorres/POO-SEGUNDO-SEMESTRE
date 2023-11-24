@@ -6,18 +6,18 @@ public class sucursales {
 
     public static void main(String[] args) {
         sucursales mainObject = new sucursales();
-        mainObject.run();
+        mainObject.elegir();
     }
 
-    public void run() {
+    public void elegir() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Por favor, elige una sucursal: 1, 2 o 3");
-        String sucursalString = scanner.nextLine();
+        String sucursal_s = scanner.nextLine();
 
         // Validar si la entrada del usuario es un número entero
-        if (sucursalString.matches("[0-9]+")) {
-            sucursal = Integer.parseInt(sucursalString);
+        if (sucursal_s.matches("[0-9]+")) {
+            sucursal = Integer.parseInt(sucursal_s);
 
             switch (sucursal) {
                 case 1:
