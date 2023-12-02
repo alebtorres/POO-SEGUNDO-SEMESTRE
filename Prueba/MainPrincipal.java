@@ -14,7 +14,8 @@ public class MainPrincipal {
 
             switch (eleccion) {
                 case 1:
-                    System.out.println("Por favor, ingresa el nombre del gato:");
+                    System.out.println("\nIngresa el nombre del gato:");
+                    scanner.nextLine();
                     String nombreGato = scanner.nextLine();
 
                     System.out.println("Ingrese el color del gato: ");
@@ -32,10 +33,11 @@ public class MainPrincipal {
                     break;
 
                 case 2:
-                    System.out.println("Ingrese el nombre del perro: ");
+                    System.out.println("\nIngrese el nombre del perro: ");
+                    scanner.nextLine();
                     String nombrePerro = scanner.nextLine();
 
-                    System.out.println("Ingrese la edad del perro: ");
+                    System.out.println("Ingrese la raza del perro: ");
                     String razaPerro = scanner.nextLine();
 
                     perro1 perro = new perro1(nombrePerro, razaPerro);
@@ -50,10 +52,12 @@ public class MainPrincipal {
 
                     break;
                 case 3:
+                    System.out.println("\nEl programa se esta cerrando.....");
                     continuar = false;
                     break;
                 default:
-                    System.out.println("Opción no válida. Por favor, elige 1 para Gato, 2 para Perro o 3 para Salir.");
+                    System.out
+                            .println("\nOpción no válida. Por favor, elige 1 para Gato, 2 para Perro o 3 para Salir.");
                     break;
             }
         }
