@@ -9,7 +9,7 @@ public class MainPrincipal {
         boolean continuar = true;
         while (continuar) {
             System.out.println(
-                    "Ingrese su deseo de continuar o cancelar con el servicio: \n1.aceptar \n2.cancelar \n3. Salir ");
+                    "Ingrese su deseo de continuar o cancelar con el servicio: \n1.aceptar \n2.cancelar \n3.Salir ");
             int eleccion = scanner.nextInt();
 
             switch (eleccion) {
