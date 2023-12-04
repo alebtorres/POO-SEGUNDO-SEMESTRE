@@ -37,7 +37,7 @@ public class MainPrincipal {
 
                     chofer chofer1 = new chofer(nombreYo, edadYo, p_taxi, id_taxi);
 
-                    System.out.println("El nombre del pasajero es: " + nombreYo);
+                    System.out.println("\nEl nombre del pasajero es: " + nombreYo);
                     System.out.println("La edad del pasajero es: " + edadYo);
                     System.out.println("La cedula del pasajero es: " + pasajero1.getCedula());
                     System.out.println("El id del pasajero es: " + idPasajero);
