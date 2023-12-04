@@ -26,9 +26,9 @@ public class MainPrincipal {
                     String idPasajero = scanner.nextLine();
 
                     System.out.println("Ingrese el numero de placa del taxi: ");
-
                     String p_taxi = scanner.nextLine();
                     scanner.nextLine();
+
                     System.out.println("Ingrese el codigo de placa del taxi: ");
                     String id_taxi = scanner.nextLine();
 
