@@ -91,7 +91,8 @@ public class MainPrincipal {
                     break;
                 default:
                     System.out
-                            .println("\nOpción no válida. Por favor, elige 1 para Gato, 2 para Perro o 3 para Salir.");
+                            .println(
+                                    "\nOpción no válida. Por favor, elige 1 para Aceptar, 2 para Cancelar o 3 para Salir.");
                     break;
 
             }
