@@ -7,7 +7,7 @@ public class matriz {
         this.matriz = new int[size][size];
     }
 
-    public void llenar_matriz() throws Exception {
+    public void llenarMatriz() throws Exception {
         if (matriz == null) {
             throw new Exception("La matriz no ha sido creada");
         }
@@ -19,18 +19,17 @@ public class matriz {
         }
     }
 
-    public void imprimir_matriz() throws Exception {
+    public void imprimirMatriz() throws Exception {
         if (matriz == null) {
             throw new Exception("La matriz no ha sido inicializada ");
         }
 
         for (int[] fila : matriz) {
             for (int valor : fila) {
-                System.out.println(valor + "");
+                System.out.print(valor + " ");
             }
 
             System.out.println();
-
         }
     }
 }
