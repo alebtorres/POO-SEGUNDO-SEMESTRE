@@ -1,0 +1,76 @@
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Veterinario veterinario = new Veterinario("Dr. Black", "1234567890", "white@gmail.com");
+        Cliente cliente = new Cliente("Juan Pérez", "9876543210", "juanperez@gmail.com", "Calle 123");
+
+        System.out.println("Introduzca el nombre del cliente:");
+        cliente.nombre = scanner.nextLine();
+
+        System.out.println("Introduzca el teléfono del cliente:");
+        cliente.telefono = scanner.nextLine();
+
+        System.out.println("Introduzca el correo del cliente:");
+        cliente.correo = scanner.nextLine();
+
+        System.out.println("Introduzca la dirección del cliente:");
+        cliente.direccion = scanner.nextLine();
+
+        guardarInformacion(cliente, veterinario);
+
+        scanner.close();
+    }
+
+    public static void guardarInformacion(Cliente cliente, Veterinario veterinario) {
+        try {
+            File file = new File("C://Users//DELL//Documents//Archivos");
+            FileWriter fileWriter = new FileWriter(file);
+
+            fileWriter.write("Cliente: " + cliente.nombre + "\n");
+            fileWriter.write("Teléfono: " + cliente.telefono + "\n");
+            fileWriter.write("Correo: " + cliente.correo + "\n");
+            fileWriter.write("Dirección: " + cliente.direccion + "\n");
+            fileWriter.write("Veterinario: " + veterinario.nombre + "\n");
+            fileWriter.write("Teléfono veterinario: " + veterinario.telefono + "\n");
+            fileWriter.write("Correo veterinario: " + veterinario.correo + "\n");
+
+            fileWriter.close(); // Cierra el FileWriter
+
+            System.out.println("Información guardada correctamente.");
+        } catch (IOException e) {
+            System.out.println("Error: " + e.getMessage());
+        }
+    }
+}
+
+class Cliente {
+    public String nombre;
+    public String telefono;
+    public String correo;
+    public String direccion;
+
+    public Cliente(String nombre, String telefono, String correo, String direccion) {
+        this.nombre = nombre;
+        this.telefono = telefono;
+        this.correo = correo;
+        this.direccion = direccion;
+    }
+}
+
+class Veterinario {
+    public String nombre;
+    public String telefono;
+    public String correo;
+
+    public Veterinario(String nombre, String telefono, String correo) {
+        this.nombre = nombre;
+        this.telefono = telefono;
+        this.correo = correo;
+    }
+}
