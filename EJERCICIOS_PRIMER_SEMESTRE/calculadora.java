@@ -1,3 +1,5 @@
+package EJERCICIOS_PRIMER_SEMESTRE;
+
 import java.util.Scanner;
 import java.util.InputMismatchException;
 
@@ -17,7 +19,7 @@ public class calculadora {
                     break;
                 }
 
-                System.out.print("Ingresa el operador [+,-,*,/] : ");
+                System.out.print("Ingresa el operwador [+,-,*,/] : ");
                 String operador = scanner.next();
                 scanner.nextLine();
 

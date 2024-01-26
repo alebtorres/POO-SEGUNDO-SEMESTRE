@@ -1,3 +1,5 @@
+package EJERCICIOS_PRIMER_SEMESTRE;
+
 import java.util.Scanner;
 
 public class sucursales {

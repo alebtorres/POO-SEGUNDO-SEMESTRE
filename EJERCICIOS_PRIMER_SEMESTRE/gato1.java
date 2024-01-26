@@ -1,3 +1,5 @@
+package EJERCICIOS_PRIMER_SEMESTRE;
+
 public class gato1 {
     String nombre;
     int edad;

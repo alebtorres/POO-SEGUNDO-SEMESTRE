@@ -1,3 +1,5 @@
+package EJERCICIOS_PRIMER_SEMESTRE;
+
 public class vehiculo {
     String marca;
     int velocidad;

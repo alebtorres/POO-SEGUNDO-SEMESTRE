@@ -1,3 +1,5 @@
+package EJERCICIOS_PRIMER_SEMESTRE;
+
 public class persona {
     private String nombre;
     int edad;
