@@ -30,8 +30,8 @@ class Trabajador(Persona):
         print(f"Actualmente estoy trabajando de : {self.actividad}")
 
 # Crear instancias y llamar a los métodos
-neicer = Trabajador("Neicer", 21, "Masculino", "Ingeniería")    
-joel = Estudiante("Joel", 21, "Masculino", "Programador")
+neicer = Trabajador("Ordonez", 21, "Masculino", "Ingeniería")    
+joel = Estudiante("Alexander", 21, "Masculino", "Programador")
 
 joel.presentarse()
 joel.hacer_actividad()
