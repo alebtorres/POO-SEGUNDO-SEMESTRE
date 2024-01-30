@@ -17,6 +17,6 @@ class Empleado(Persona):
     def hablar(self):
         print ("No esta hablando")
 
-joel = Empleado("Joel", 21, "ecuatoriano", "Programador", 4500)
+Alexander = Empleado("Alexander", 21, "ecuatoriano", "Programador", 4500)
 # Herencia simple...
-joel.hablar()
+Alexander.hablar()
