@@ -29,6 +29,6 @@ class EmpleadoArtista(Artista,Persona):
         return f'{self.mostrar_habilidad()}'
     
     
-Alexander =EmpleadoArtista ("Joel", 21, "ecuatoriano","Jugarfutbol", "Programador", 4500,)
+Alexander =EmpleadoArtista ("Alexander", 21, "ecuatoriano","JugarPadel", "Programador", 4500,)
 # Herencia Multiple
 Alexander.presentarse()
